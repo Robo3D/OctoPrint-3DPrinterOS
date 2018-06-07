@@ -63,7 +63,7 @@ class Cloud3DPrinterOSPlugin(octoprint.plugin.StartupPlugin,
     def get_settings_defaults(self):
         return dict(
             url="cloud.3dprinteros.com",
-            printer_type="ROBO3D_R1PLUS",
+            printer_type="RR2",
             verbose=False,
             registered=False,
             serial=True,
@@ -102,17 +102,17 @@ class Cloud3DPrinterOSPlugin(octoprint.plugin.StartupPlugin,
     def get_update_information(self, *args, **kwargs):
         return dict(
             c3dprinteros=dict(
-                displayName="3DPrinterOS Plugin",
+                displayName="3DPrinterOS/MyStemKits Plugin",
                 displayVersion=self.get_plugin_version(),
 
                 # version check: github repository
                 type="github_release",
-                user="3dprinteros",
+                user="Robo3D",
                 repo="OctoPrint-3DPrinterOS",
                 current=self.get_plugin_version(),
 
                 # update method: pip
-                pip="https://github.com/3dprinteros/OctoPrint-3DPrinterOS/archive/{target_version}.zip"
+                pip="https://github.com/Robo3D/OctoPrint-3DPrinterOS/archive/{target_version}.zip"
             )
         )
 
