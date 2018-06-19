@@ -14,7 +14,7 @@ plugin_package = "octoprint_3dprinteros"
 plugin_name = "OctoPrint-3DPrinterOS"
 
 # The plugin's version. Can be overwritten within OctoPrint's internal data via __plugin_version__ in the plugin module
-plugin_version = "0.1.8"
+plugin_version = "0.2.0"
 
 # The plugin's description. Can be overwritten within OctoPrint's internal data via __plugin_description__ in the plugin
 # module
@@ -27,7 +27,7 @@ plugin_author = "Maksym Kozlov"
 plugin_author_email = "m.kozlov@3dprinteros.com"
 
 # The plugin's homepage URL. Can be overwritten within OctoPrint's internal data via __plugin_url__ in the plugin module
-plugin_url = "https://github.com/3dprinteros/OctoPrint-3DPrinterOS"
+plugin_url = "https://github.com/Robo3D/OctoPrint-3DPrinterOS"
 
 # The plugin's license. Can be overwritten within OctoPrint's internal data via __plugin_license__ in the plugin module
 plugin_license = "AGPLv3"
