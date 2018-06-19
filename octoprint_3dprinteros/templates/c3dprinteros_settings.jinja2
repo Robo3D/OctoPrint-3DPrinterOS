@@ -53,9 +53,14 @@
             <div class="row-fluid" data-bind="visible: registering">
                 <div class="span11">
                     <strong>{{ _('How to register with MyStemKits: ') }}</strong>
-                    Copy Token. Log into <a href="http://kits.mystemkits.com" " target="_blank">kits.mystemkits.com</a> (Do not register your printer on 3DPrinterOS if you are using MyStemKits).
-                    Select a file to print.  Navigate through to the "Prepairing print settings" screen, and search for the "Supported Cloud Printers" option.  Click the link titled
-                    "Register token" and paste the token provided above into the field.  Your printer should now be ready to print directly from the MSK site!
+                    <ol>
+                        <li>Copy Token.</li>
+                        <li>Log into <a href="http://kits.mystemkits.com" " target="_blank">kits.mystemkits.com</a> (Do not register your printer on 3DPrinterOS if you are using MyStemKits).</li>
+                        <li>Select a file to print.</li>  
+                        <li>Navigate through to the "Prepairing print settings" screen, and search for the "Supported Cloud Printers" option.</li>  
+                        <li>Click the link titled "Register token" and paste the token provided above into the field.</li>  
+                        <li>Your printer should now be ready to print directly from the MSK site!</li>
+                    </ol>
                     </br>
                     <strong>{{ _('How to register with 3D Printer OS: ') }}</strong>
                     Copy Token. Go to <a data-bind="attr: {href: registrationLink}" target="_blank">3DPrinterOS Cloud Printers page</a> (You need to register on 3DPrinterOS Cloud before, if you don't have an account).
